@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 2% 15%;
+    color: black;
+    width: 960px;
+}
+
+h1,
+h2,
+h3 {
+    color: #ff6500;
+}
+
+h1 {
+    float: left;
+}
+
+h2 {
+    clear: left;
+    margin-bottom: 1%;
+}
+
+h3 {
+    margin-left: -4%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+    margin-bottom: 2%;
+}
+
+body>div>p {
+    margin-left: 2%;
+}
+
+p {
+    width: 66%;
+    margin-bottom: 2%;
+    margin-left: -4%;
+    font-size: 17px;
+}
+
+section div:nth-child(odd) {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 3%;
+}
+
+section div:nth-child(even) {
+    width: 75%;
+}
+
+section div p {
+    width: 100%;
+}
+
+main {
+    float: right;
+    margin-right: 13%;
+    position: relative;
+    top: -205px;
+}
+
+a img {
+    margin: 0;
+    padding: 0;
+}
+
+main img {
+    height: 125px;
+    width: 125px;
+    border: transparent;
+}
+
+main div {
+    margin-bottom: 22%;
+    margin-left: 17%;
+    margin-top: 15%;
+    width: 100%!important;
+}
+
+img:last-child {
+    margin-top: -1%;
+}
+
+.mailto span {
+    margin-left: -9%;
+}
